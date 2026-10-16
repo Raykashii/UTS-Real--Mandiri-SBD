@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="69907F26-3E3E-FC3E-CB08-3A3FBF82DF86" name="PAPER">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:05:07 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+<engineerTo>
+<item key="3CC2D75F-EC99-3BB1-6F3E-5FEFA3BA65D5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="paper_id" id="70720BB2-4702-C2C9-6696-72823E4324FE">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:05:21 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+<engineerTo>
+<item key="3CC2D75F-EC99-3BB1-6F3E-5FEFA3BA65D5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="title" id="AFBEF734-1DD5-060F-72C0-82B472ED0F9E">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:07:24 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+<engineerTo>
+<item key="3CC2D75F-EC99-3BB1-6F3E-5FEFA3BA65D5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="abstract" id="F6B3DF71-64D1-A6FE-25FE-5ACA9EFCA02E">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:08:18 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+<engineerTo>
+<item key="3CC2D75F-EC99-3BB1-6F3E-5FEFA3BA65D5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="file_name" id="44011D22-5A6C-BDED-E984-E0ABD841B264">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:08:32 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+<engineerTo>
+<item key="3CC2D75F-EC99-3BB1-6F3E-5FEFA3BA65D5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="author_email" id="372690EB-A92C-13EF-CAFC-A31A473C9973">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:17:31 UTC</createdTime>
+<generatorID>870517E5-D610-C59E-8B82-A55E92032368</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<engineerTo>
+<item key="3CC2D75F-EC99-3BB1-6F3E-5FEFA3BA65D5" value="true"/>
+</engineerTo>
+<referedAttribute>9A5288D3-5E05-E70E-19DC-18DD43F1524A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ACD82ECD-C79F-F6BF-D945-31A06F189488" name="PAPER PK">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:15:57 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+<engineerTo>
+<item key="3CC2D75F-EC99-3BB1-6F3E-5FEFA3BA65D5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>70720BB2-4702-C2C9-6696-72823E4324FE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

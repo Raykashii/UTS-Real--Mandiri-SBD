@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="REVIEWER" directorySegmentName="seg_0" id="5571F421-25A2-0CBE-CCB7-03EE38EF74AA">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:39:55 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="last_name" id="205D7816-4F9B-7606-E9AF-F5E68BF98A85">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:39:55 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="first_name" id="3F677DA6-5178-0EAB-F333-2DEBF844715E">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:39:55 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="phone" id="4CD7D91F-BB09-8FED-DEA4-1B7DDFCE9C0C">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:39:55 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="affiliation" id="B0E3D62E-C292-F9F3-DFEB-B7AA3B5052A8">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:39:55 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="reviewer_email" id="D5EF7579-20BD-89C2-38C9-E245C9FAF395">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:39:55 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="REVIEWER_PK" id="37866768-B351-C965-894C-C69CAD91CBED">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:39:55 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

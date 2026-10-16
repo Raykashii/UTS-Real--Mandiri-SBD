@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8309664E-1AF7-CA31-7DDD-5861C3A24C2A" name="REVIEWER_TOPIC">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:31:05 UTC</createdTime>
+<generatorID>6A25B22A-6ED4-AE2B-B9F6-B75548E1CD3A</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="topic" id="84FF92E9-9743-E4E7-19EE-46BBC938D1D3">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:31:05 UTC</createdTime>
+<generatorID>CB18C2BE-CE4B-5B58-E38A-3DEFBAB85E21</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="reviewer_email" id="F50032D0-FCC3-9D19-6FEC-02B0315EF76D">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:31:05 UTC</createdTime>
+<generatorID>EDB840EE-5BEA-CC8B-A136-7C8956226C98</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9EC4BF0A-E80D-F5FE-9760-65EC474381ED" referredColumn="D5EF7579-20BD-89C2-38C9-E245C9FAF395"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="16843534-9DF6-C3BF-9343-22DBFF53438A" name="REVIEWER_TOPIC_PK">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:31:05 UTC</createdTime>
+<generatorID>B7D0FAE3-C225-8EB8-CA23-0F0B57E8A6CA</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84FF92E9-9743-E4E7-19EE-46BBC938D1D3"/>
+<colUsage columnID="F50032D0-FCC3-9D19-6FEC-02B0315EF76D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C1C24907-535E-E9CA-1909-5BFA03570D46" name="REVIEWER_TOPIC_REVIEWER_FK">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:31:05 UTC</createdTime>
+<generatorID>FADB07E9-958B-99B4-E424-0FD54FDEF7FD</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F50032D0-FCC3-9D19-6FEC-02B0315EF76D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

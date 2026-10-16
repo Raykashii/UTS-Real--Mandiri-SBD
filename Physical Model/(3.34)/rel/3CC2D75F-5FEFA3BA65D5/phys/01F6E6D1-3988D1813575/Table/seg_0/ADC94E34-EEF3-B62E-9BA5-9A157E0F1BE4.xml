@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="AUTHOR" directorySegmentName="seg_0" id="ADC94E34-EEF3-B62E-9BA5-9A157E0F1BE4">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:39:55 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="last_name" id="2EA06B33-F4DA-67CE-CD8E-8810DCD21FD7">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:39:55 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="author_email" id="53D3BCD6-329A-E85E-AAFD-80BA0C1CB433">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:39:55 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="first_name" id="F198DB11-9450-E722-66B9-5B2B873A6A71">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:39:55 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="AUTHOR_PK" id="B724D284-075C-F7D1-5094-54527F8629E5">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:39:55 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>
