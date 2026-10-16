@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="REVIEW" directorySegmentName="seg_0" id="4C980E6B-249C-D778-49CF-C9A0A6F28A0E">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:39:55 UTC</createdTime>
+<ownerDesignName>Conference</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="paper_id" id="2EC5244D-AF99-9AAF-DB1B-3AF5DADA4C42">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:39:55 UTC</createdTime>
+<ownerDesignName>Conference</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="recommendation" id="36024F8C-808F-CD1F-63F9-7020379CECB5">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:39:55 UTC</createdTime>
+<ownerDesignName>Conference</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="originality" id="73B89CE4-1AE9-91E6-DCFD-3E6DB00AC448">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:39:55 UTC</createdTime>
+<ownerDesignName>Conference</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="comment_committee" id="7CF9DA59-CE4C-73B3-E915-B4D77DF56A39">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:39:55 UTC</createdTime>
+<ownerDesignName>Conference</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="technical_merit" id="86AA8A61-334B-CE39-FA57-DC1A4399492B">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:39:55 UTC</createdTime>
+<ownerDesignName>Conference</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="readability" id="9BB200F4-6A15-1120-6873-D1078F6E9F6B">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:39:55 UTC</createdTime>
+<ownerDesignName>Conference</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="comment_author" id="9FD44737-2726-C882-8309-E33E1B2F8A72">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:39:55 UTC</createdTime>
+<ownerDesignName>Conference</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="relevance" id="A891B3ED-0B2F-7FA4-5907-238767B4489E">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:39:55 UTC</createdTime>
+<ownerDesignName>Conference</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="reviewer_email" id="D8DB012A-AC23-9D2A-CC35-2B02BBFE2953">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:39:55 UTC</createdTime>
+<ownerDesignName>Conference</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="REVIEW_REVIEWER_FK" id="5DB95A4A-EE1A-5705-939B-75FC0A0A9740">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:39:55 UTC</createdTime>
+<ownerDesignName>Conference</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="REVIEW_PAPER_FK" id="CF804ECF-B529-188B-EDE2-B364DBB55983">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:39:55 UTC</createdTime>
+<ownerDesignName>Conference</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="REVIEW_PK" id="961AE512-7A5E-42F9-CBF7-41C3A416116A">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:39:55 UTC</createdTime>
+<ownerDesignName>Conference</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

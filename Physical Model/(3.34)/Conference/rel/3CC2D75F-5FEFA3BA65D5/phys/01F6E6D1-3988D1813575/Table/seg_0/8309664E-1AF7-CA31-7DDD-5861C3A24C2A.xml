@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="REVIEWER_TOPIC" directorySegmentName="seg_0" id="8309664E-1AF7-CA31-7DDD-5861C3A24C2A">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:39:55 UTC</createdTime>
+<ownerDesignName>Conference</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="topic" id="84FF92E9-9743-E4E7-19EE-46BBC938D1D3">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:39:55 UTC</createdTime>
+<ownerDesignName>Conference</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="reviewer_email" id="F50032D0-FCC3-9D19-6FEC-02B0315EF76D">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:39:55 UTC</createdTime>
+<ownerDesignName>Conference</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="REVIEWER_TOPIC_REVIEWER_FK" id="C1C24907-535E-E9CA-1909-5BFA03570D46">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:39:55 UTC</createdTime>
+<ownerDesignName>Conference</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="REVIEWER_TOPIC_PK" id="16843534-9DF6-C3BF-9343-22DBFF53438A">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:39:55 UTC</createdTime>
+<ownerDesignName>Conference</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

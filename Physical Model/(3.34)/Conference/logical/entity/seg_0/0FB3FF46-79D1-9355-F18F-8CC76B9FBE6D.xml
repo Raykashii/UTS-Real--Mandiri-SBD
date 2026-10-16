@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0FB3FF46-79D1-9355-F18F-8CC76B9FBE6D" name="REVIEW">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:12:10 UTC</createdTime>
+<ownerDesignName>Conference</ownerDesignName>
+<engineerTo>
+<item key="3CC2D75F-EC99-3BB1-6F3E-5FEFA3BA65D5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="technical_merit" id="B3997D56-6974-4205-CEF6-8B125F87C1CC">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:12:49 UTC</createdTime>
+<ownerDesignName>Conference</ownerDesignName>
+<engineerTo>
+<item key="3CC2D75F-EC99-3BB1-6F3E-5FEFA3BA65D5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="readability" id="9F194AB3-BAB1-596A-DBF1-66B438A21CB0">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:13:14 UTC</createdTime>
+<ownerDesignName>Conference</ownerDesignName>
+<engineerTo>
+<item key="3CC2D75F-EC99-3BB1-6F3E-5FEFA3BA65D5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="originality" id="639B4C9E-37CB-A803-E13E-D008BC41D3D0">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:13:27 UTC</createdTime>
+<ownerDesignName>Conference</ownerDesignName>
+<engineerTo>
+<item key="3CC2D75F-EC99-3BB1-6F3E-5FEFA3BA65D5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="relevance" id="F07FEB57-79E7-83DB-F293-6FB914331090">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:13:32 UTC</createdTime>
+<ownerDesignName>Conference</ownerDesignName>
+<engineerTo>
+<item key="3CC2D75F-EC99-3BB1-6F3E-5FEFA3BA65D5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="recommendation" id="FC144B2B-3C44-581B-7ECA-19028768A6BA">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:13:37 UTC</createdTime>
+<ownerDesignName>Conference</ownerDesignName>
+<engineerTo>
+<item key="3CC2D75F-EC99-3BB1-6F3E-5FEFA3BA65D5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comment_committee" id="09D7E99E-56C3-1A11-E0C7-7BE8E3579FC3">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:13:47 UTC</createdTime>
+<ownerDesignName>Conference</ownerDesignName>
+<engineerTo>
+<item key="3CC2D75F-EC99-3BB1-6F3E-5FEFA3BA65D5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comment_author" id="3EF20F87-7198-6209-8B27-BABD2E246204">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:13:54 UTC</createdTime>
+<ownerDesignName>Conference</ownerDesignName>
+<engineerTo>
+<item key="3CC2D75F-EC99-3BB1-6F3E-5FEFA3BA65D5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="reviewer_email1" id="C09E5DE3-606A-409B-8EBD-D6DEF88654F9">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:18:12 UTC</createdTime>
+<generatorID>7254DBB4-36DA-47A7-27FE-EB294A488C91</generatorID>
+<ownerDesignName>Conference</ownerDesignName>
+<engineerTo>
+<item key="3CC2D75F-EC99-3BB1-6F3E-5FEFA3BA65D5" value="true"/>
+</engineerTo>
+<referedAttribute>724F548D-B88C-7DBC-D59A-E344BA170BF6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="paper_id1" id="C0B5F0F6-A2A0-B8AC-F368-44403DCB3183">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:22:44 UTC</createdTime>
+<generatorID>E42C6853-1DDE-35C2-F258-FDD3FBCFA426</generatorID>
+<ownerDesignName>Conference</ownerDesignName>
+<engineerTo>
+<item key="3CC2D75F-EC99-3BB1-6F3E-5FEFA3BA65D5" value="true"/>
+</engineerTo>
+<referedAttribute>70720BB2-4702-C2C9-6696-72823E4324FE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="71645C60-5ABC-B993-4EE0-3041868FF404" name="REVIEW PK">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:12:37 UTC</createdTime>
+<ownerDesignName>Conference</ownerDesignName>
+<engineerTo>
+<item key="3CC2D75F-EC99-3BB1-6F3E-5FEFA3BA65D5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C0B5F0F6-A2A0-B8AC-F368-44403DCB3183</attributeRef>
+<attributeRef>C09E5DE3-606A-409B-8EBD-D6DEF88654F9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

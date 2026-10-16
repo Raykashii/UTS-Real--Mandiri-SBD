@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4C980E6B-249C-D778-49CF-C9A0A6F28A0E" name="REVIEW">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:31:05 UTC</createdTime>
+<generatorID>0FB3FF46-79D1-9355-F18F-8CC76B9FBE6D</generatorID>
+<ownerDesignName>Conference</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="technical_merit" id="86AA8A61-334B-CE39-FA57-DC1A4399492B">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:31:05 UTC</createdTime>
+<generatorID>B3997D56-6974-4205-CEF6-8B125F87C1CC</generatorID>
+<ownerDesignName>Conference</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="readability" id="9BB200F4-6A15-1120-6873-D1078F6E9F6B">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:31:05 UTC</createdTime>
+<generatorID>9F194AB3-BAB1-596A-DBF1-66B438A21CB0</generatorID>
+<ownerDesignName>Conference</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="originality" id="73B89CE4-1AE9-91E6-DCFD-3E6DB00AC448">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:31:05 UTC</createdTime>
+<generatorID>639B4C9E-37CB-A803-E13E-D008BC41D3D0</generatorID>
+<ownerDesignName>Conference</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="relevance" id="A891B3ED-0B2F-7FA4-5907-238767B4489E">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:31:05 UTC</createdTime>
+<generatorID>F07FEB57-79E7-83DB-F293-6FB914331090</generatorID>
+<ownerDesignName>Conference</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="recommendation" id="36024F8C-808F-CD1F-63F9-7020379CECB5">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:31:05 UTC</createdTime>
+<generatorID>FC144B2B-3C44-581B-7ECA-19028768A6BA</generatorID>
+<ownerDesignName>Conference</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comment_committee" id="7CF9DA59-CE4C-73B3-E915-B4D77DF56A39">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:31:05 UTC</createdTime>
+<generatorID>09D7E99E-56C3-1A11-E0C7-7BE8E3579FC3</generatorID>
+<ownerDesignName>Conference</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comment_author" id="9FD44737-2726-C882-8309-E33E1B2F8A72">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:31:05 UTC</createdTime>
+<generatorID>3EF20F87-7198-6209-8B27-BABD2E246204</generatorID>
+<ownerDesignName>Conference</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="reviewer_email" id="D8DB012A-AC23-9D2A-CC35-2B02BBFE2953">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:31:05 UTC</createdTime>
+<generatorID>C09E5DE3-606A-409B-8EBD-D6DEF88654F9</generatorID>
+<ownerDesignName>Conference</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DFAB13A3-4034-8372-03C9-87FE891E0ABE" referredColumn="D5EF7579-20BD-89C2-38C9-E245C9FAF395"/>
+</associations>
+</Column>
+<Column name="paper_id" id="2EC5244D-AF99-9AAF-DB1B-3AF5DADA4C42">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:31:05 UTC</createdTime>
+<generatorID>C0B5F0F6-A2A0-B8AC-F368-44403DCB3183</generatorID>
+<ownerDesignName>Conference</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A38ACEA-E5B0-1DF8-9349-8D61333FEDEC" referredColumn="94E0488B-B411-259C-BA76-41F78A945850"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="961AE512-7A5E-42F9-CBF7-41C3A416116A" name="REVIEW_PK">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:31:05 UTC</createdTime>
+<generatorID>71645C60-5ABC-B993-4EE0-3041868FF404</generatorID>
+<ownerDesignName>Conference</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EC5244D-AF99-9AAF-DB1B-3AF5DADA4C42"/>
+<colUsage columnID="D8DB012A-AC23-9D2A-CC35-2B02BBFE2953"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF804ECF-B529-188B-EDE2-B364DBB55983" name="REVIEW_PAPER_FK">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:31:05 UTC</createdTime>
+<generatorID>E42C6853-1DDE-35C2-F258-FDD3FBCFA426</generatorID>
+<ownerDesignName>Conference</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EC5244D-AF99-9AAF-DB1B-3AF5DADA4C42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5DB95A4A-EE1A-5705-939B-75FC0A0A9740" name="REVIEW_REVIEWER_FK">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:31:05 UTC</createdTime>
+<generatorID>7254DBB4-36DA-47A7-27FE-EB294A488C91</generatorID>
+<ownerDesignName>Conference</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8DB012A-AC23-9D2A-CC35-2B02BBFE2953"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

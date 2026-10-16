@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Conference" id="E2E367FA-8B10-ED77-66C1-7A861D6C6BAA" version="3.5">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 06:58:53 UTC</createdTime>
+<ownerDesignName>Conference</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E2E367FA-8B10-ED77-66C1-7A861D6C6BAA</designId>
+</OSDM_Design>

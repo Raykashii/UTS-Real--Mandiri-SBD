@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ADC94E34-EEF3-B62E-9BA5-9A157E0F1BE4" name="AUTHOR">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:31:05 UTC</createdTime>
+<generatorID>5A9105DC-F83A-202A-C3FD-86E1EA9CD9FB</generatorID>
+<ownerDesignName>Conference</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="author_email" id="53D3BCD6-329A-E85E-AAFD-80BA0C1CB433">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:31:05 UTC</createdTime>
+<generatorID>9A5288D3-5E05-E70E-19DC-18DD43F1524A</generatorID>
+<ownerDesignName>Conference</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="F198DB11-9450-E722-66B9-5B2B873A6A71">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:31:05 UTC</createdTime>
+<generatorID>BEE44BCD-48C2-63C3-2B09-3FDF5FAE4E66</generatorID>
+<ownerDesignName>Conference</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="2EA06B33-F4DA-67CE-CD8E-8810DCD21FD7">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:31:05 UTC</createdTime>
+<generatorID>F8017102-5228-6E1C-A4A8-0D9FA7901EC3</generatorID>
+<ownerDesignName>Conference</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B724D284-075C-F7D1-5094-54527F8629E5" name="AUTHOR_PK">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:31:05 UTC</createdTime>
+<generatorID>70B02B5A-7128-207C-0B6C-9DB245ACFE0E</generatorID>
+<ownerDesignName>Conference</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53D3BCD6-329A-E85E-AAFD-80BA0C1CB433"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

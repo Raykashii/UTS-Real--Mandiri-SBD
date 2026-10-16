@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="103B11E6-14BC-4BDC-ED3E-DD4942C1E414" containerWithKeyObject="E9B85580-1F93-FE7F-5247-0D2414582185" localFKIndex="AC766892-7EB3-1682-47E2-B10B1790ACB2" name="PAPER_AUTHOR_PAPER_FK">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:31:05 UTC</createdTime>
+<generatorID>8EA6F207-8E96-64AF-BC32-EAD114934E94</generatorID>
+<ownerDesignName>Conference</ownerDesignName>
+<referredTableLongName>PAPER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>473BB30B-BA24-32B1-1624-0DED1A806564</referredTableID>
+<keyObject>FBB44CCD-2CDE-612C-9AEC-EDD33F9FE20B</keyObject>
+<referredKeyID>FBB44CCD-2CDE-612C-9AEC-EDD33F9FE20B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>paper_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

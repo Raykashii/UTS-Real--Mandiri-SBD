@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="is assessed by" directorySegmentName="seg_0" id="E42C6853-1DDE-35C2-F258-FDD3FBCFA426">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 07:18:00 UTC</createdTime>
+<ownerDesignName>Conference</ownerDesignName>
+<engineerTo>
+<item key="3CC2D75F-EC99-3BB1-6F3E-5FEFA3BA65D5" value="true"/>
+</engineerTo>
+<sourcePk>ACD82ECD-C79F-F6BF-D945-31A06F189488</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>69907F26-3E3E-FC3E-CB08-3A3FBF82DF86</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0FB3FF46-79D1-9355-F18F-8CC76B9FBE6D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
