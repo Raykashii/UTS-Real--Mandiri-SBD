@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="AIRPORT" directorySegmentName="seg_0" id="D3D5640A-8533-3E87-DC52-A372A0A05A94">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 15:02:33 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Name" id="8FEC65A8-7DDE-6FC0-FF3B-D66346C7F842">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 15:02:33 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="State" id="A7AE9E89-6FBD-37D1-3F98-1A85081EEE3B">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 15:02:33 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Airport_code" id="B0B154B5-A216-919A-C838-39E00F131F54">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 15:02:33 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="City" id="CFC69447-017B-0E46-A76E-9977C0C9DC2F">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 15:02:33 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="AIRPORT_PK" id="2510F7F9-CCF2-935A-5F5C-2AA61037C9C6">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 15:02:33 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

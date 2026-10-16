@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5DA55EA-8F93-F9EB-2657-20D02C70D948" name="AIRPLANE">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:52:40 UTC</createdTime>
+<generatorID>B5183D88-5730-DC21-5AF0-6D6AC0064B9A</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Airplane_id" id="9490F097-B7F8-9D7B-FE92-0CED4CE78162">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:52:40 UTC</createdTime>
+<generatorID>14AC1CE2-D3BC-B293-A0EB-BF137A2FD902</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Total_no_of_seats" id="19AA424C-598C-3A45-E886-4AB784956AEF">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:52:40 UTC</createdTime>
+<generatorID>A599D51F-9307-C043-6AC7-9AA356FA619E</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Type_name" id="96DA92A4-6CDD-D4A0-56C9-3EC566211D48">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:52:40 UTC</createdTime>
+<generatorID>B129CCFD-AECC-FF6F-A3B7-6AB80D7308D5</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type_name_1" id="C3404384-15D5-B828-B42B-7BDEE5FD0081">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:52:40 UTC</createdTime>
+<generatorID>A2B221C9-B424-070A-1735-FD64CEC55C56</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4126588-0B05-2D7A-04A0-BAD268FAF8F1" referredColumn="A12BEAE6-0D18-2524-D15C-2E108924A786"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BDB23A07-7A1A-11AA-BADB-E180F524F5F9" name="AIRPLANE_PK">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:52:40 UTC</createdTime>
+<generatorID>C4EB53E8-E370-DA9E-4A42-9231D910B05D</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9490F097-B7F8-9D7B-FE92-0CED4CE78162"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5C0CBBA-DA32-66B0-EE5E-BA08DEA33910" name="AIRPLANE_AIRPLANE_TYPE_FK">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:52:40 UTC</createdTime>
+<generatorID>8550D617-35D2-8886-AC13-60975401A1B3</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3404384-15D5-B828-B42B-7BDEE5FD0081"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

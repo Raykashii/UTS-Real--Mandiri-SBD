@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="98A60E78-F82A-AFAE-0BCF-1196B4882E19" name="FARE">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:38:16 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+<engineerTo>
+<item key="3EB5BD4B-0788-375D-FB09-C114DCABC687" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Fare_code" id="26BB87A0-8322-43F1-5D8A-0F0F894EFE7E">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:38:20 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+<engineerTo>
+<item key="3EB5BD4B-0788-375D-FB09-C114DCABC687" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Amount" id="80378BF6-C0C1-9514-3AE8-BC5D38CB17A7">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:38:40 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+<engineerTo>
+<item key="3EB5BD4B-0788-375D-FB09-C114DCABC687" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Restrictions" id="41A7AC37-AADE-3A0F-07AA-C433920BB682">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:38:58 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+<engineerTo>
+<item key="3EB5BD4B-0788-375D-FB09-C114DCABC687" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Flight_number" id="4EA9C25D-467F-C733-45CC-0EC4C446719F">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:44:18 UTC</createdTime>
+<generatorID>076ADF95-4A13-0C51-DABC-CD6EE120AD2A</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<engineerTo>
+<item key="3EB5BD4B-0788-375D-FB09-C114DCABC687" value="true"/>
+</engineerTo>
+<referedAttribute>0E238B7C-E2C1-9AA5-53B3-FAA3089046F4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A7E6DE38-AD56-D67D-720A-688E36D82C1C" name="FARE PK">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:39:09 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+<engineerTo>
+<item key="3EB5BD4B-0788-375D-FB09-C114DCABC687" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>26BB87A0-8322-43F1-5D8A-0F0F894EFE7E</attributeRef>
+<attributeRef>4EA9C25D-467F-C733-45CC-0EC4C446719F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

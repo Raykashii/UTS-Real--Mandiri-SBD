@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="LEGS" directorySegmentName="seg_0" id="B3650BF7-25B8-DAC5-AF5B-8261B9D5DDF1">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:42:45 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+<engineerTo>
+<item key="3EB5BD4B-0788-375D-FB09-C114DCABC687" value="true"/>
+</engineerTo>
+<sourcePk>A5CF69A8-00C9-1320-483C-43C70BE865C0</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>293B0AD9-13F0-ED4A-3DA9-FC25E31936F6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6CBC03F9-3BA7-4BB7-730A-59498A6368B3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

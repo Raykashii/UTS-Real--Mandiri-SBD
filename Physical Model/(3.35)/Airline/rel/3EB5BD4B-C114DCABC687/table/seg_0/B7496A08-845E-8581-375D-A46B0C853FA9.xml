@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7496A08-845E-8581-375D-A46B0C853FA9" name="FARE">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:52:40 UTC</createdTime>
+<generatorID>98A60E78-F82A-AFAE-0BCF-1196B4882E19</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Fare_code" id="86A291A9-16A2-8F55-7D36-75F76ACCD92B">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:52:40 UTC</createdTime>
+<generatorID>26BB87A0-8322-43F1-5D8A-0F0F894EFE7E</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Amount" id="FB4A3C7F-0CEE-00EF-4414-7FD64DF51E9C">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:52:40 UTC</createdTime>
+<generatorID>80378BF6-C0C1-9514-3AE8-BC5D38CB17A7</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Restrictions" id="78E017FE-6A71-2FE3-F623-0A1D06F47C6F">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:52:40 UTC</createdTime>
+<generatorID>41A7AC37-AADE-3A0F-07AA-C433920BB682</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="flight_number" id="E3A2F348-03D4-1D69-83E3-91A8045BF1FC">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:52:40 UTC</createdTime>
+<generatorID>4EA9C25D-467F-C733-45CC-0EC4C446719F</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54261F7C-3E23-98DC-98AA-49D1BA666837" referredColumn="155105D1-7EFA-E186-EE73-CB559E23E785"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="19C0174A-9D2A-E28E-AEDF-673B3BF345A5" name="FARE_PK">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:52:40 UTC</createdTime>
+<generatorID>A7E6DE38-AD56-D67D-720A-688E36D82C1C</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86A291A9-16A2-8F55-7D36-75F76ACCD92B"/>
+<colUsage columnID="E3A2F348-03D4-1D69-83E3-91A8045BF1FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C4586C7-12F9-872B-368F-BA8F37543DCE" name="FARE_FLIGHT_FK">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:52:40 UTC</createdTime>
+<generatorID>076ADF95-4A13-0C51-DABC-CD6EE120AD2A</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3A2F348-03D4-1D69-83E3-91A8045BF1FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

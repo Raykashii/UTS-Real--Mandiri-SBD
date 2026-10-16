@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3D5640A-8533-3E87-DC52-A372A0A05A94" name="AIRPORT">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:52:40 UTC</createdTime>
+<generatorID>B236D858-4FC1-8DA2-95C7-80EF39A4E54C</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Airport_code" id="B0B154B5-A216-919A-C838-39E00F131F54">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:52:40 UTC</createdTime>
+<generatorID>2C10AD30-AC0D-C4B3-1C3A-16AC53BF88A1</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="8FEC65A8-7DDE-6FC0-FF3B-D66346C7F842">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:52:40 UTC</createdTime>
+<generatorID>E581A52A-AB00-49EA-4658-5E778DDCCDD9</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="City" id="CFC69447-017B-0E46-A76E-9977C0C9DC2F">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:52:40 UTC</createdTime>
+<generatorID>F7F9489D-391F-31CF-4A7E-1E3CFCB15DE3</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="State" id="A7AE9E89-6FBD-37D1-3F98-1A85081EEE3B">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:52:40 UTC</createdTime>
+<generatorID>65B65A32-C079-E7BE-61A9-D27D9A38C645</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2510F7F9-CCF2-935A-5F5C-2AA61037C9C6" name="AIRPORT_PK">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:52:40 UTC</createdTime>
+<generatorID>9E229652-2732-C459-878E-0FE9E7B11B8B</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0B154B5-A216-919A-C838-39E00F131F54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

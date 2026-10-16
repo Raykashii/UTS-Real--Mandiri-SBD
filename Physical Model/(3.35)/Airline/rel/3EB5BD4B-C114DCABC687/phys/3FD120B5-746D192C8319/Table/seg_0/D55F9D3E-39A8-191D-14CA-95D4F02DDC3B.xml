@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="AIRPLANE_TYPE" directorySegmentName="seg_0" id="D55F9D3E-39A8-191D-14CA-95D4F02DDC3B">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 15:02:33 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Max_seats" id="01D62066-FFB1-1E1F-B03C-3B380587E64B">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 15:02:33 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Company" id="3C9A5DAF-2CBE-16F1-170D-5B3C198CB2F5">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 15:02:33 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Type_name" id="A12BEAE6-0D18-2524-D15C-2E108924A786">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 15:02:33 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="AIRPLANE_TYPE_PK" id="CFC45AC2-EACA-ACFB-DEC2-B6448D172C6A">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 15:02:33 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

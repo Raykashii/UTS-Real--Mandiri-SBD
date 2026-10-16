@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="SEAT" directorySegmentName="seg_0" id="2EF0E873-1915-A7BF-0B98-0493FA8077E8">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 15:02:33 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="leg_no" id="21C4EFD0-9419-08C8-7241-A3D239BBD5D9">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 15:02:33 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="leg_date" id="5015FD87-F19C-5E98-D74A-36C64198D613">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 15:02:33 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Customer_name" id="6C7DE5E8-7106-2886-8A71-518C4F6E7C7C">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 15:02:33 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Seat_no" id="94176121-EA09-885F-F5E3-2281426F9682">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 15:02:33 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Cphone" id="98E82D66-42D4-6D32-D7BC-9BEC251325C1">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 15:02:33 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="flight_number" id="CDE32B7E-6503-C7DA-82B5-F1562D5D9D98">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 15:02:33 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SEAT_LEG_INSTANCE_FK" id="97D5AAFE-0905-D89C-496B-8276812525DB">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 15:02:33 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SEAT_PK" id="0A820796-6495-3C48-2AF5-9CF346D9AF2B">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 15:02:33 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

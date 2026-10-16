@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5BD46C48-255C-1CB3-85E2-66475C08D857" name="LEG_INSTANCE">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:39:33 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+<engineerTo>
+<item key="3EB5BD4B-0788-375D-FB09-C114DCABC687" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Leg_date" id="B41BAEE5-38BD-A921-95AC-628CE78206C8">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:39:40 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+<engineerTo>
+<item key="3EB5BD4B-0788-375D-FB09-C114DCABC687" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="No_of_avail_seats" id="2110E484-E472-2432-0833-C0559DF1F99A">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:39:54 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+<engineerTo>
+<item key="3EB5BD4B-0788-375D-FB09-C114DCABC687" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dep_time" id="F545FF34-60F7-6012-BAC6-0BC3892901F6">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:40:01 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+<engineerTo>
+<item key="3EB5BD4B-0788-375D-FB09-C114DCABC687" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Arr_time" id="AF809250-53E4-052B-138C-5D971AD8D7C0">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:40:40 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+<engineerTo>
+<item key="3EB5BD4B-0788-375D-FB09-C114DCABC687" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Leg_no" id="E0B5BB9B-FBBC-1F5A-D0F4-E41EA3CA0DA7">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:43:12 UTC</createdTime>
+<generatorID>C8004FB1-B939-03A7-A28A-F3B1EC1C1C78</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<engineerTo>
+<item key="3EB5BD4B-0788-375D-FB09-C114DCABC687" value="true"/>
+</engineerTo>
+<referedAttribute>BEFF4825-8EFA-EB0D-A7A1-BF6BEF9736BB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Flight_number" id="DA2D8C12-763E-ADFF-D5A6-4874D8E8307D">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:43:12 UTC</createdTime>
+<generatorID>C8004FB1-B939-03A7-A28A-F3B1EC1C1C78</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<engineerTo>
+<item key="3EB5BD4B-0788-375D-FB09-C114DCABC687" value="true"/>
+</engineerTo>
+<referedAttribute>D452AD0F-69D5-12D0-7BB9-71EFE3002292</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Airplane_id" id="C7F03963-D597-7159-62AB-C562491741BA">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:46:02 UTC</createdTime>
+<generatorID>A496CFE4-71A0-5423-0A34-1B2A272A1DF7</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<engineerTo>
+<item key="3EB5BD4B-0788-375D-FB09-C114DCABC687" value="true"/>
+</engineerTo>
+<referedAttribute>14AC1CE2-D3BC-B293-A0EB-BF137A2FD902</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Airport_code" id="8866C82C-32BE-5D79-DA6D-3DBE3399290F">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:46:20 UTC</createdTime>
+<generatorID>B01122EA-0188-5AD5-55DE-940DED296E5B</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<engineerTo>
+<item key="3EB5BD4B-0788-375D-FB09-C114DCABC687" value="true"/>
+</engineerTo>
+<referedAttribute>2C10AD30-AC0D-C4B3-1C3A-16AC53BF88A1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Airport_code1" id="B9137D10-6847-C706-26B4-593FB281708E">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:46:35 UTC</createdTime>
+<generatorID>76741C6C-EC74-21EE-B726-640FF969B1AF</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<engineerTo>
+<item key="3EB5BD4B-0788-375D-FB09-C114DCABC687" value="true"/>
+</engineerTo>
+<referedAttribute>2C10AD30-AC0D-C4B3-1C3A-16AC53BF88A1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2BE54DDD-5D2B-A3DE-50FD-DEF6BE6F8972" name="LEG_INSTANCE PK">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:40:55 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+<engineerTo>
+<item key="3EB5BD4B-0788-375D-FB09-C114DCABC687" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B41BAEE5-38BD-A921-95AC-628CE78206C8</attributeRef>
+<attributeRef>E0B5BB9B-FBBC-1F5A-D0F4-E41EA3CA0DA7</attributeRef>
+<attributeRef>DA2D8C12-763E-ADFF-D5A6-4874D8E8307D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

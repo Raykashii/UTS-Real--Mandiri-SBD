@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E93DBF72-C076-54BD-2E8E-E6D7A7B5361D" name="CAN_LAND">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:52:40 UTC</createdTime>
+<generatorID>1F0912EE-4DCB-D535-BFE4-11E12807E4BF</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="airport_code" id="60C5D3FE-8EBA-0F54-EB97-04B1AF8BDDD8">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:52:40 UTC</createdTime>
+<generatorID>A64D2759-5082-D763-F8B1-45C7F20F2519</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54BC92A4-2EAC-ADDF-139A-1E54CFBF2B00" referredColumn="B0B154B5-A216-919A-C838-39E00F131F54"/>
+</associations>
+</Column>
+<Column name="type_name" id="B2FB8477-BBB9-DBA7-5E92-056CDE47B7DA">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:52:40 UTC</createdTime>
+<generatorID>96407F68-C6B4-E759-3D67-2F5237F22899</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="361A3840-37CE-3026-D2E5-6C079A4343E3" referredColumn="A12BEAE6-0D18-2524-D15C-2E108924A786"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="52C19528-8973-DA49-8E20-81EC3964094E" name="CAN_LAND_PK">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:52:40 UTC</createdTime>
+<generatorID>4F11BD2F-7621-B211-FBC7-78A9A98C208C</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60C5D3FE-8EBA-0F54-EB97-04B1AF8BDDD8"/>
+<colUsage columnID="B2FB8477-BBB9-DBA7-5E92-056CDE47B7DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35B8B4EC-BC60-AA4B-3BFA-781071A94FB8" name="CAN_LAND_AIRPORT_FK">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:52:40 UTC</createdTime>
+<generatorID>6FA606C3-B128-7220-FD33-7A89FE3A747F</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60C5D3FE-8EBA-0F54-EB97-04B1AF8BDDD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B50C0E3-EA6B-0ADF-6FFC-8A5787A331E6" name="CAN_LAND_AIRPLANE_TYPE_FK">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:52:40 UTC</createdTime>
+<generatorID>59E06247-ECDF-19AF-0A61-A2162E38D921</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2FB8477-BBB9-DBA7-5E92-056CDE47B7DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

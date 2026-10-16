@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CAN_LANDv1" directorySegmentName="seg_0" id="59E06247-ECDF-19AF-0A61-A2162E38D921">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:46:58 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+<engineerTo>
+<item key="3EB5BD4B-0788-375D-FB09-C114DCABC687" value="true"/>
+</engineerTo>
+<sourcePk>2C5E35C0-A608-8931-3969-231D05328069</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1828C619-9858-9EF7-5796-3657473DF973</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1F0912EE-4DCB-D535-BFE4-11E12807E4BF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

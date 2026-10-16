@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DEPARTURE_AIRPORT" directorySegmentName="seg_0" id="12DE8C33-914F-D651-50CC-C82CD51E4E9C">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:44:40 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+<engineerTo>
+<item key="3EB5BD4B-0788-375D-FB09-C114DCABC687" value="true"/>
+</engineerTo>
+<sourcePk>9E229652-2732-C459-878E-0FE9E7B11B8B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B236D858-4FC1-8DA2-95C7-80EF39A4E54C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6CBC03F9-3BA7-4BB7-730A-59498A6368B3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

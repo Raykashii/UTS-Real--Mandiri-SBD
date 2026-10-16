@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0D7D6087-C93A-25DA-D869-E1330B1624DA" name="FLIGHT_LEG">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:52:40 UTC</createdTime>
+<generatorID>6CBC03F9-3BA7-4BB7-730A-59498A6368B3</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Leg_no" id="3D03CAE2-2D99-9A74-26B8-0C7C64631F85">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:52:40 UTC</createdTime>
+<generatorID>BEFF4825-8EFA-EB0D-A7A1-BF6BEF9736BB</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Scheduled_dep_time" id="394D2D8E-DE93-4E0A-2C46-6860C2381806">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:52:40 UTC</createdTime>
+<generatorID>4DCE2113-393E-85EB-03A7-0999336A154F</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Scheduled_arr_time" id="03381F60-112D-922E-C9D9-562FF16D0DBF">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:52:40 UTC</createdTime>
+<generatorID>6D279243-B24B-A3AF-919A-8C05F89870A3</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="flight_number" id="46DE552E-5D98-C442-6B76-7A7033F0515C">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:52:40 UTC</createdTime>
+<generatorID>D452AD0F-69D5-12D0-7BB9-71EFE3002292</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3BCEA0BA-1229-941F-C571-9AEAD4782BDD" referredColumn="155105D1-7EFA-E186-EE73-CB559E23E785"/>
+</associations>
+</Column>
+<Column name="arr_airport_code" id="126D50BE-9A6D-0096-15F6-4F9E9E14E285">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:52:40 UTC</createdTime>
+<generatorID>8AD2D005-D03A-64FD-543A-828A60F1C860</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2324F898-95F7-BD81-939D-B6A3C23C80D5" referredColumn="B0B154B5-A216-919A-C838-39E00F131F54"/>
+</associations>
+</Column>
+<Column name="dep_airport_code" id="EC195232-D8A6-CF7A-7DC8-71A3AAA2261A">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:52:40 UTC</createdTime>
+<generatorID>C7609B8A-448C-DD0C-3F55-4F1E5EB90F1D</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A55A672F-D2A9-F1B9-F6A1-3F078189F459" referredColumn="B0B154B5-A216-919A-C838-39E00F131F54"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="34F2843D-251C-C3EF-14A7-7BEBE5FAA074" name="FLIGHT_LEG_PK">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:52:40 UTC</createdTime>
+<generatorID>06B3BAC9-07A5-CC5E-48C8-3AC8C6614E45</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D03CAE2-2D99-9A74-26B8-0C7C64631F85"/>
+<colUsage columnID="46DE552E-5D98-C442-6B76-7A7033F0515C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A172D3D3-8FCD-63E6-2991-136B9E1BA74A" name="FLIGHT_LEG_AIRPORT_FK">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:52:40 UTC</createdTime>
+<generatorID>81626931-DBDD-C982-1929-036262C95422</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC195232-D8A6-CF7A-7DC8-71A3AAA2261A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="87EB8E10-3399-F761-CF38-9A2FA9D48496" name="FLIGHT_LEG_AIRPORT_FKv2">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:52:40 UTC</createdTime>
+<generatorID>12DE8C33-914F-D651-50CC-C82CD51E4E9C</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="126D50BE-9A6D-0096-15F6-4F9E9E14E285"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62D5BC08-308A-795C-335F-15E78E2A4A85" name="FLIGHT_LEG_FLIGHT_FK">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:52:40 UTC</createdTime>
+<generatorID>B3650BF7-25B8-DAC5-AF5B-8261B9D5DDF1</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46DE552E-5D98-C442-6B76-7A7033F0515C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

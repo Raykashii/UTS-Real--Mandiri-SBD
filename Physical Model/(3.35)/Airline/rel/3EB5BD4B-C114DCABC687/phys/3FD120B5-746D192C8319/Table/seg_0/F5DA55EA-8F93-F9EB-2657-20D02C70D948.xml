@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="AIRPLANE" directorySegmentName="seg_0" id="F5DA55EA-8F93-F9EB-2657-20D02C70D948">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 15:02:33 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Total_no_of_seats" id="19AA424C-598C-3A45-E886-4AB784956AEF">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 15:02:33 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Airplane_id" id="9490F097-B7F8-9D7B-FE92-0CED4CE78162">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 15:02:33 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Type_name" id="96DA92A4-6CDD-D4A0-56C9-3EC566211D48">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 15:02:33 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="type_name_1" id="C3404384-15D5-B828-B42B-7BDEE5FD0081">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 15:02:33 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="AIRPLANE_AIRPLANE_TYPE_FK" id="B5C0CBBA-DA32-66B0-EE5E-BA08DEA33910">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 15:02:33 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="AIRPLANE_PK" id="BDB23A07-7A1A-11AA-BADB-E180F524F5F9">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 15:02:33 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

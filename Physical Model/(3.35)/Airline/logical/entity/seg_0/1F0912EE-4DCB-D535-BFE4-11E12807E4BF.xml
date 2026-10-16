@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1F0912EE-4DCB-D535-BFE4-11E12807E4BF" name="CAN_LAND">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:42:09 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+<engineerTo>
+<item key="3EB5BD4B-0788-375D-FB09-C114DCABC687" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Airport_code" id="A64D2759-5082-D763-F8B1-45C7F20F2519">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:46:49 UTC</createdTime>
+<generatorID>6FA606C3-B128-7220-FD33-7A89FE3A747F</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<engineerTo>
+<item key="3EB5BD4B-0788-375D-FB09-C114DCABC687" value="true"/>
+</engineerTo>
+<referedAttribute>2C10AD30-AC0D-C4B3-1C3A-16AC53BF88A1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Type_name" id="96407F68-C6B4-E759-3D67-2F5237F22899">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:46:58 UTC</createdTime>
+<generatorID>59E06247-ECDF-19AF-0A61-A2162E38D921</generatorID>
+<ownerDesignName>Airline</ownerDesignName>
+<engineerTo>
+<item key="3EB5BD4B-0788-375D-FB09-C114DCABC687" value="true"/>
+</engineerTo>
+<referedAttribute>7FD9715A-63F1-92D3-036B-ADD2845DBDFD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4F11BD2F-7621-B211-FBC7-78A9A98C208C" name="CAN_LAND PK">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 09:46:49 UTC</createdTime>
+<ownerDesignName>Airline</ownerDesignName>
+<engineerTo>
+<item key="3EB5BD4B-0788-375D-FB09-C114DCABC687" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A64D2759-5082-D763-F8B1-45C7F20F2519</attributeRef>
+<attributeRef>96407F68-C6B4-E759-3D67-2F5237F22899</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
