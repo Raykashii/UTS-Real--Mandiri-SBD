@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="422F0BB3-DF9B-CF04-23E5-14F0EC457939" name="STATE">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 06:25:30 UTC</createdTime>
+<ownerDesignName>Representative</ownerDesignName>
+<engineerTo>
+<item key="1D0DC28D-9508-C439-9D8B-A8D839DF6E3A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="State_Name" id="4A42CD99-8C09-7715-FBCA-6DEEE0B9FAE9">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 06:29:47 UTC</createdTime>
+<ownerDesignName>Representative</ownerDesignName>
+<engineerTo>
+<item key="1D0DC28D-9508-C439-9D8B-A8D839DF6E3A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Region" id="9713BC10-7C0A-B836-BFC4-4B45F8E8BCA6">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 06:30:16 UTC</createdTime>
+<ownerDesignName>Representative</ownerDesignName>
+<engineerTo>
+<item key="1D0DC28D-9508-C439-9D8B-A8D839DF6E3A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<domain>8D42ED42-94EF-77CC-C3B5-88A7B3EB91C3</domain>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3DDDB5EC-AB79-FB95-3945-590B22ED15DF" name="STATE PK">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 06:29:59 UTC</createdTime>
+<ownerDesignName>Representative</ownerDesignName>
+<engineerTo>
+<item key="1D0DC28D-9508-C439-9D8B-A8D839DF6E3A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4A42CD99-8C09-7715-FBCA-6DEEE0B9FAE9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

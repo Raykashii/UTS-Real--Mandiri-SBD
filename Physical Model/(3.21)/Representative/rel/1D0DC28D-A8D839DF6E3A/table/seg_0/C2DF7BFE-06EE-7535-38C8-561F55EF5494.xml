@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C2DF7BFE-06EE-7535-38C8-561F55EF5494" name="STATE">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 08:11:33 UTC</createdTime>
+<generatorID>422F0BB3-DF9B-CF04-23E5-14F0EC457939</generatorID>
+<ownerDesignName>Representative</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="State_Name" id="5ADD38AC-9259-4A3C-B2A0-DEC2B5DB2040">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 08:11:33 UTC</createdTime>
+<generatorID>4A42CD99-8C09-7715-FBCA-6DEEE0B9FAE9</generatorID>
+<ownerDesignName>Representative</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Region" id="70854632-3F42-3CC2-D551-DE0DAEBECA39">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 08:11:33 UTC</createdTime>
+<generatorID>9713BC10-7C0A-B836-BFC4-4B45F8E8BCA6</generatorID>
+<ownerDesignName>Representative</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<domain>8D42ED42-94EF-77CC-C3B5-88A7B3EB91C3</domain>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D6A32E4C-B9CA-D3AE-93D0-3564EA16E9A8" name="STATE_PK">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 08:11:33 UTC</createdTime>
+<generatorID>3DDDB5EC-AB79-FB95-3945-590B22ED15DF</generatorID>
+<ownerDesignName>Representative</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5ADD38AC-9259-4A3C-B2A0-DEC2B5DB2040"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

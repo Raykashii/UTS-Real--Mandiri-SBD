@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="has sponsor" directorySegmentName="seg_0" id="109C1D39-610D-69FC-1671-02B0F9B9B0A9">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 06:42:14 UTC</createdTime>
+<ownerDesignName>Representative</ownerDesignName>
+<engineerTo>
+<item key="1D0DC28D-9508-C439-9D8B-A8D839DF6E3A" value="true"/>
+</engineerTo>
+<sourcePk>E1CA75B4-6E50-E359-401E-9C45C157B077</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B95AEBF8-3D79-A414-176D-6ED4D38BB048</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2A38086C-AFC9-5EC2-D54C-4DAC1B451C99</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

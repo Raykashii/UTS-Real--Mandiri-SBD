@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="33CC1394-E74F-7C07-4437-4D677BEAC312" name="BILL_SPONSOR">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 08:11:33 UTC</createdTime>
+<generatorID>2A38086C-AFC9-5EC2-D54C-4DAC1B451C99</generatorID>
+<ownerDesignName>Representative</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CONGRESS_PERSON_Cperson_id" id="F5DF769B-BAC5-A947-00B0-730E0F2815C0">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 08:11:33 UTC</createdTime>
+<generatorID>B8D9EA74-A328-98E8-2DD2-259EA47D1AE8</generatorID>
+<ownerDesignName>Representative</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9B68066-ACAB-D3A2-458C-BEDEA4F99741" referredColumn="E1A3DEE2-60EC-8137-1A19-FF67BD6FB536"/>
+</associations>
+</Column>
+<Column name="BILL_Bill_id" id="F9CD03E5-EEA7-CA10-D924-282BB8B2E6C4">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 08:11:33 UTC</createdTime>
+<generatorID>65003DB9-5457-9010-5808-20CD952809EF</generatorID>
+<ownerDesignName>Representative</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77873FC6-5C13-881F-21CA-A71BB9618287" referredColumn="6B3C1FC7-8E8A-6A5C-B9FB-215FE994AF21"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="97C2BBC4-CE0D-ECA4-DEA2-C1938A10700B" name="BILL_SPONSOR_PK">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 08:11:33 UTC</createdTime>
+<generatorID>5A70482A-945F-4581-0286-0938A627EC89</generatorID>
+<ownerDesignName>Representative</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5DF769B-BAC5-A947-00B0-730E0F2815C0"/>
+<colUsage columnID="F9CD03E5-EEA7-CA10-D924-282BB8B2E6C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C974D410-564C-E5A7-3623-01FD3FA224B1" name="BILL_SPONSOR_BILL_FK">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 08:11:33 UTC</createdTime>
+<generatorID>109C1D39-610D-69FC-1671-02B0F9B9B0A9</generatorID>
+<ownerDesignName>Representative</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9CD03E5-EEA7-CA10-D924-282BB8B2E6C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5B61442-F8DE-5FD0-0E87-039BD48BCAB9" name="BILL_SPONSOR_CONGRESS_PERSON_FK">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 08:11:33 UTC</createdTime>
+<generatorID>F7AFCE60-C131-6785-2FB8-06190B4EC179</generatorID>
+<ownerDesignName>Representative</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5DF769B-BAC5-A947-00B0-730E0F2815C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

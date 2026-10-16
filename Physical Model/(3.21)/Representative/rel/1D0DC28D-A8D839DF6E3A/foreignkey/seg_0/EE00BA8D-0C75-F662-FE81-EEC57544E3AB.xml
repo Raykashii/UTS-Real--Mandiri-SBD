@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EE00BA8D-0C75-F662-FE81-EEC57544E3AB" containerWithKeyObject="6AAE1639-3C14-8102-C278-82D95D54EB6A" localFKIndex="A175678F-8851-C8D0-DFAE-14A24194F3E4" name="VOTE_BILL_FK">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 08:11:33 UTC</createdTime>
+<generatorID>B0451E85-C201-88C5-191E-A5744477D577</generatorID>
+<ownerDesignName>Representative</ownerDesignName>
+<referredTableLongName>BILL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>751AB1D6-0E2F-295E-B6D1-9C370B4BC517</referredTableID>
+<keyObject>CD750CBA-B1FA-F35F-3200-070D612A149A</keyObject>
+<referredKeyID>CD750CBA-B1FA-F35F-3200-070D612A149A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Bill_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

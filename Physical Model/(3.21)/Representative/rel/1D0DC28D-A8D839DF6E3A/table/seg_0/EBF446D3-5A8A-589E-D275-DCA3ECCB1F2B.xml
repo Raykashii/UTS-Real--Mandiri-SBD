@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EBF446D3-5A8A-589E-D275-DCA3ECCB1F2B" name="CONGRESS_PERSON">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 08:11:33 UTC</createdTime>
+<generatorID>E86B90F3-92A0-9AE7-28AA-9B463377A3B4</generatorID>
+<ownerDesignName>Representative</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cperson_id" id="E1A3DEE2-60EC-8137-1A19-FF67BD6FB536">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 08:11:33 UTC</createdTime>
+<generatorID>5F977D65-9267-06F2-CD35-AD770A2FEEFA</generatorID>
+<ownerDesignName>Representative</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="7BEE8CE9-F0ED-4A86-FAB7-17457C556411">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 08:11:33 UTC</createdTime>
+<generatorID>1A317314-385F-585C-8A4C-F377BE02B88F</generatorID>
+<ownerDesignName>Representative</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="District" id="23277C2D-887B-5968-6F3F-65930053EBF1">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 08:11:33 UTC</createdTime>
+<generatorID>99F4D87B-3CF3-93F3-C5EC-ED872E25434F</generatorID>
+<ownerDesignName>Representative</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Start_date" id="033AB71D-FEAC-D990-F9C7-C184D5ED25F4">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 08:11:33 UTC</createdTime>
+<generatorID>17643906-EEEA-41E4-7E3C-5518BA5056B0</generatorID>
+<ownerDesignName>Representative</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Party" id="C3370A6E-E931-A4EE-37EA-66ED45C7F624">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 08:11:33 UTC</createdTime>
+<generatorID>F17E568B-5077-1352-E852-8569F33B2E9D</generatorID>
+<ownerDesignName>Representative</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<domain>B1D60FCA-B7EE-DDFE-926B-EFFD7271C8A2</domain>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATE_State_Name" id="BAA6EACE-D0B9-9C86-4801-FC6F878F1E5C">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 08:11:33 UTC</createdTime>
+<generatorID>B28707A5-4444-4DA6-4C14-D661C62CEA73</generatorID>
+<ownerDesignName>Representative</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A14D6DC1-6705-8B97-DA2E-C6AC25D3E81B" referredColumn="5ADD38AC-9259-4A3C-B2A0-DEC2B5DB2040"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E01FEE95-D885-8670-439D-850C1F0EF89B" name="CONGRESS_PERSON_PK">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 08:11:33 UTC</createdTime>
+<generatorID>4C4EBC49-D9D3-A723-91E2-94BC050AEDED</generatorID>
+<ownerDesignName>Representative</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1A3DEE2-60EC-8137-1A19-FF67BD6FB536"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38316F60-87A9-7A80-2C32-ADBB8418DFBE" name="CONGRESS_PERSON_STATE_FK">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 08:11:33 UTC</createdTime>
+<generatorID>D9EAA875-1F70-F426-8D2D-DD2046098DF9</generatorID>
+<ownerDesignName>Representative</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAA6EACE-D0B9-9C86-4801-FC6F878F1E5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

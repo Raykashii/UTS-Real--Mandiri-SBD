@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A14D6DC1-6705-8B97-DA2E-C6AC25D3E81B" containerWithKeyObject="EBF446D3-5A8A-589E-D275-DCA3ECCB1F2B" localFKIndex="38316F60-87A9-7A80-2C32-ADBB8418DFBE" name="CONGRESS_PERSON_STATE_FK">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 08:11:33 UTC</createdTime>
+<generatorID>D9EAA875-1F70-F426-8D2D-DD2046098DF9</generatorID>
+<ownerDesignName>Representative</ownerDesignName>
+<referredTableLongName>STATE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C2DF7BFE-06EE-7535-38C8-561F55EF5494</referredTableID>
+<keyObject>D6A32E4C-B9CA-D3AE-93D0-3564EA16E9A8</keyObject>
+<referredKeyID>D6A32E4C-B9CA-D3AE-93D0-3564EA16E9A8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>State_Name</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

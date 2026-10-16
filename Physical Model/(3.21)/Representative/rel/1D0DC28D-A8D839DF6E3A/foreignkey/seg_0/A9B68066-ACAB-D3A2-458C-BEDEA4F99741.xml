@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A9B68066-ACAB-D3A2-458C-BEDEA4F99741" containerWithKeyObject="33CC1394-E74F-7C07-4437-4D677BEAC312" localFKIndex="D5B61442-F8DE-5FD0-0E87-039BD48BCAB9" name="BILL_SPONSOR_CONGRESS_PERSON_FK">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 08:11:33 UTC</createdTime>
+<generatorID>F7AFCE60-C131-6785-2FB8-06190B4EC179</generatorID>
+<ownerDesignName>Representative</ownerDesignName>
+<referredTableLongName>CONGRESS_PERSON</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EBF446D3-5A8A-589E-D275-DCA3ECCB1F2B</referredTableID>
+<keyObject>E01FEE95-D885-8670-439D-850C1F0EF89B</keyObject>
+<referredKeyID>E01FEE95-D885-8670-439D-850C1F0EF89B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Cperson_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

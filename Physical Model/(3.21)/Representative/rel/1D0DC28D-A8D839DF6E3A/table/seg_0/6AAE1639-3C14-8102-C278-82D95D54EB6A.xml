@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6AAE1639-3C14-8102-C278-82D95D54EB6A" name="VOTE">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 08:11:33 UTC</createdTime>
+<generatorID>C237F4E8-FA72-6D4E-DE17-23F5BE75D5FD</generatorID>
+<ownerDesignName>Representative</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Vote" id="9ABC0775-D48A-5F02-DC5E-90EB0B2F421D">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 08:11:33 UTC</createdTime>
+<generatorID>106B7110-9EA7-E533-8B28-72D300FA42D9</generatorID>
+<ownerDesignName>Representative</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<domain>5FC7CE81-1769-F815-6AF2-943A86E76231</domain>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONGRESS_PERSON_Cperson_id" id="2E5BC399-2291-171E-F2BC-FD56388796E1">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 08:11:33 UTC</createdTime>
+<generatorID>4A5333D4-C666-0C8A-03D6-638A0B3037F6</generatorID>
+<ownerDesignName>Representative</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D0DCA049-182B-B494-6A15-FDC6CBCDAC06" referredColumn="E1A3DEE2-60EC-8137-1A19-FF67BD6FB536"/>
+</associations>
+</Column>
+<Column name="BILL_Bill_id" id="6B4808B6-F21B-2B36-7FEC-EFD60480B277">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 08:11:33 UTC</createdTime>
+<generatorID>A796B767-EEA0-5408-268F-4C5D4A1BC145</generatorID>
+<ownerDesignName>Representative</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE00BA8D-0C75-F662-FE81-EEC57544E3AB" referredColumn="6B3C1FC7-8E8A-6A5C-B9FB-215FE994AF21"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7967D9C4-DA49-0D47-1C6D-D4DF01B7E68A" name="VOTE_PK">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 08:11:33 UTC</createdTime>
+<generatorID>34F9EF5D-85A6-3252-9AD4-B62BFC8584B6</generatorID>
+<ownerDesignName>Representative</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E5BC399-2291-171E-F2BC-FD56388796E1"/>
+<colUsage columnID="6B4808B6-F21B-2B36-7FEC-EFD60480B277"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C798444-1B59-1FD0-562F-89BEE61FBE62" name="VOTE_CONGRESS_PERSON_FK">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 08:11:33 UTC</createdTime>
+<generatorID>E637274F-7554-E3C4-38E8-BF061836EBC2</generatorID>
+<ownerDesignName>Representative</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E5BC399-2291-171E-F2BC-FD56388796E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A175678F-8851-C8D0-DFAE-14A24194F3E4" name="VOTE_BILL_FK">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 08:11:33 UTC</createdTime>
+<generatorID>B0451E85-C201-88C5-191E-A5744477D577</generatorID>
+<ownerDesignName>Representative</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B4808B6-F21B-2B36-7FEC-EFD60480B277"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="751AB1D6-0E2F-295E-B6D1-9C370B4BC517" name="BILL">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 08:11:33 UTC</createdTime>
+<generatorID>B95AEBF8-3D79-A414-176D-6ED4D38BB048</generatorID>
+<ownerDesignName>Representative</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Bill_id" id="6B3C1FC7-8E8A-6A5C-B9FB-215FE994AF21">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 08:11:33 UTC</createdTime>
+<generatorID>D2258753-96F9-5941-E887-25B8610F7AC2</generatorID>
+<ownerDesignName>Representative</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Bill_name" id="FF82850C-60A4-EA82-9207-83E43C07E80A">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 08:11:33 UTC</createdTime>
+<generatorID>7DD965C7-5139-AB2F-8EB8-6AD153109A23</generatorID>
+<ownerDesignName>Representative</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date_of_Vote" id="6B3D6364-C77B-9D40-1C3D-6435FBB78E6F">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 08:11:33 UTC</createdTime>
+<generatorID>4C4A6CAC-B433-1692-6131-CB12FFBC754C</generatorID>
+<ownerDesignName>Representative</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Passed_or_failed" id="615AF1C7-B4E1-55A7-FB38-976CF37E2013">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 08:11:33 UTC</createdTime>
+<generatorID>B03B47F3-2EF0-ACF5-8BCE-1C514A168365</generatorID>
+<ownerDesignName>Representative</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<domain>75DE6927-801F-9B21-0AAB-85C2DECA185B</domain>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD750CBA-B1FA-F35F-3200-070D612A149A" name="BILL_PK">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 08:11:33 UTC</createdTime>
+<generatorID>E1CA75B4-6E50-E359-401E-9C45C157B077</generatorID>
+<ownerDesignName>Representative</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B3C1FC7-8E8A-6A5C-B9FB-215FE994AF21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

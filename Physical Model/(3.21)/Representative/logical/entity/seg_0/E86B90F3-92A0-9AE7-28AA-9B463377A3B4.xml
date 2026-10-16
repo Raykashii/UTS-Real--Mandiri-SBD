@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E86B90F3-92A0-9AE7-28AA-9B463377A3B4" name="CONGRESS_PERSON">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 06:32:10 UTC</createdTime>
+<ownerDesignName>Representative</ownerDesignName>
+<engineerTo>
+<item key="1D0DC28D-9508-C439-9D8B-A8D839DF6E3A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Cperson_id" id="5F977D65-9267-06F2-CD35-AD770A2FEEFA">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 06:32:24 UTC</createdTime>
+<ownerDesignName>Representative</ownerDesignName>
+<engineerTo>
+<item key="1D0DC28D-9508-C439-9D8B-A8D839DF6E3A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="1A317314-385F-585C-8A4C-F377BE02B88F">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 06:32:45 UTC</createdTime>
+<ownerDesignName>Representative</ownerDesignName>
+<engineerTo>
+<item key="1D0DC28D-9508-C439-9D8B-A8D839DF6E3A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="District" id="99F4D87B-3CF3-93F3-C5EC-ED872E25434F">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 06:33:02 UTC</createdTime>
+<ownerDesignName>Representative</ownerDesignName>
+<engineerTo>
+<item key="1D0DC28D-9508-C439-9D8B-A8D839DF6E3A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Start_date" id="17643906-EEEA-41E4-7E3C-5518BA5056B0">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 06:33:42 UTC</createdTime>
+<ownerDesignName>Representative</ownerDesignName>
+<engineerTo>
+<item key="1D0DC28D-9508-C439-9D8B-A8D839DF6E3A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Party" id="F17E568B-5077-1352-E852-8569F33B2E9D">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 06:33:51 UTC</createdTime>
+<ownerDesignName>Representative</ownerDesignName>
+<engineerTo>
+<item key="1D0DC28D-9508-C439-9D8B-A8D839DF6E3A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<domain>B1D60FCA-B7EE-DDFE-926B-EFFD7271C8A2</domain>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="State_Name" id="B28707A5-4444-4DA6-4C14-D661C62CEA73">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 06:39:01 UTC</createdTime>
+<generatorID>D9EAA875-1F70-F426-8D2D-DD2046098DF9</generatorID>
+<ownerDesignName>Representative</ownerDesignName>
+<engineerTo>
+<item key="1D0DC28D-9508-C439-9D8B-A8D839DF6E3A" value="true"/>
+</engineerTo>
+<referedAttribute>4A42CD99-8C09-7715-FBCA-6DEEE0B9FAE9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4C4EBC49-D9D3-A723-91E2-94BC050AEDED" name="CONGRESS_PERSON PK">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 06:32:43 UTC</createdTime>
+<ownerDesignName>Representative</ownerDesignName>
+<engineerTo>
+<item key="1D0DC28D-9508-C439-9D8B-A8D839DF6E3A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5F977D65-9267-06F2-CD35-AD770A2FEEFA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

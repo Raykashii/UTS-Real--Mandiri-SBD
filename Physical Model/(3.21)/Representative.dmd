@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Representative" id="376669B7-2790-92FE-49DE-FEBDAA690FA5" version="3.5">
+<createdBy>rasya</createdBy>
+<createdTime>2026-10-16 06:17:13 UTC</createdTime>
+<ownerDesignName>soal 1 3.21</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>376669B7-2790-92FE-49DE-FEBDAA690FA5</designId>
+</OSDM_Design>
